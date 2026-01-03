@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Sistem Data Otomatis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-blue-700 text-white py-20 px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Sistem Pengelolaan Data & Laporan Otomatis</h1>
+        <p class="text-xl opacity-90">Solusi Efisiensi Administrasi menggunakan Google Workspace & Apps Script</p>
+    </header>
+
+    <main class="max-w-5xl mx-auto py-12 px-6">
+        
+        <section class="grid md:grid-cols-2 gap-10 mb-20">
+            <div class="bg-red-50 p-8 rounded-xl border-l-4 border-red-500 shadow-sm">
+                <h3 class="text-xl font-bold text-red-700 mb-4"><i class="fas fa-exclamation-triangle"></i> Masalah yang Diselesaikan</h3>
+                <ul class="space-y-3">
+                    <li><span class="font-bold">Data Sulit Dibaca:</span> Hasil formulir berantakan dan memanjang.</li>
+                    <li><span class="font-bold">Entri Manual:</span> Risiko salah salin dan membuang waktu.</li>
+                    <li><span class="font-bold">Pelacakan Lemah:</span> Sulit mencari riwayat data lama.</li>
+                </ul>
+            </div>
+            <div class="bg-green-50 p-8 rounded-xl border-l-4 border-green-500 shadow-sm">
+                <h3 class="text-xl font-bold text-green-700 mb-4"><i class="fas fa-check-circle"></i> Solusi yang Ditawarkan</h3>
+                <ul class="space-y-3">
+                    <li><span class="font-bold">Single Entry:</span> Satu pintu untuk semua laporan.</li>
+                    <li><span class="font-bold">Auto-Sorting:</span> Pembagian data otomatis berbasis Apps Script.</li>
+                    <li><span class="font-bold">ID Unik:</span> Penomoran otomatis untuk kemudahan arsip.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12">Alur Kerja Sistem</h2>
+            <div class="flex flex-col md:flex-row justify-between items-start gap-8">
+                <div class="flex-1 text-center p-6 bg-white rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="text-3xl text-blue-600 mb-4"><i class="fas fa-wpforms"></i></div>
+                    <h4 class="font-bold mb-2">1. Input</h4>
+                    <p class="text-sm">Data dimasukkan melalui satu Google Form utama.</p>
+                </div>
+                <div class="hidden md:block mt-12 text-blue-300"><i class="fas fa-arrow-right fa-2x"></i></div>
+                <div class="flex-1 text-center p-6 bg-white rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="text-3xl text-blue-600 mb-4"><i class="fas fa-cogs"></i></div>
+                    <h4 class="font-bold mb-2">2. Proses</h4>
+                    <p class="text-sm">Apps Script mengenali, membagi, dan memberi ID otomatis.</p>
+                </div>
+                <div class="hidden md:block mt-12 text-blue-300"><i class="fas fa-arrow-right fa-2x"></i></div>
+                <div class="flex-1 text-center p-6 bg-white rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="text-3xl text-blue-600 mb-4"><i class="fas fa-file-invoice"></i></div>
+                    <h4 class="font-bold mb-2">3. Output</h4>
+                    <p class="text-sm">Data tersusun rapi di Sheet kategori dan Master Sheet.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8">Dokumentasi Sistem</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-gray-200 aspect-video rounded-lg flex items-center justify-center text-gray-500 border border-gray-300 group overflow-hidden relative">
+                    <img src="https://via.placeholder.com/600x400?text=Foto+1:+Google+Form" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <p class="absolute bottom-2 left-2 bg-black/50 text-white text-xs p-1">Tampilan Google Form</p>
+                </div>
+                <div class="bg-gray-200 aspect-video rounded-lg flex items-center justify-center text-gray-500 border border-gray-300 group overflow-hidden relative">
+                    <img src="https://via.placeholder.com/600x400?text=Foto+2:+Auto+Sorting" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <p class="absolute bottom-2 left-2 bg-black/50 text-white text-xs p-1">Pembagian Sheet Otomatis</p>
+                </div>
+                <div class="bg-gray-200 aspect-video rounded-lg flex items-center justify-center text-gray-500 border border-gray-300 group overflow-hidden relative">
+                    <img src="https://via.placeholder.com/600x400?text=Foto+3:+Master+Sheet" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <p class="absolute bottom-2 left-2 bg-black/50 text-white text-xs p-1">Halaman Rangkuman Utama</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-blue-900 text-white p-10 rounded-3xl shadow-xl">
+            <h2 class="text-2xl font-bold mb-8 text-center underline decoration-blue-400">Manfaat Nyata Hasil Proyek</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <i class="fas fa-bolt text-yellow-400 text-3xl mb-4"></i>
+                    <p class="font-semibold">Hemat Waktu & Tenaga</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-list-ol text-blue-300 text-3xl mb-4"></i>
+                    <p class="font-semibold">Data Lebih Teratur</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-chart-line text-green-400 text-3xl mb-4"></i>
+                    <p class="font-semibold">Laporan Selalu Siap</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-100 py-8 text-center text-gray-500 text-sm border-t">
+        <p>&copy; 2024 - Project Showcase | Dibuat dengan <i class="fas fa-heart text-red-500"></i></p>
+    </footer>
+
+</body>
+</html>
